@@ -4,6 +4,6 @@ function requestHandler(reqest, response){
   respone.end("Hello World");
 }
 
-var server = http.createServer(requstHandler);
+var server = http.createServer(requestHandler);
 
 server.listen(3000);
