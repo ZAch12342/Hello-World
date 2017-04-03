@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/ZAch12342/Hello-World/issues"
   },
-  "homepage": "https://github.com/ZAch12342/Hello-World"
+  "homepage": "https://github.com/ZAch12342/Hello-World",
+  "dependencies": {
+    "poemify": "^1.1.1",
+    "txtgen": "^1.0.8"
+  }
 }

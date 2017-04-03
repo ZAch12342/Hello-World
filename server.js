@@ -1,9 +1,14 @@
 var http = require("http");
+var Poem = require ("poemify");
+var txtgen = require('txtgen');
+
+var localport = process.env.PORT || 3200;
 function requestHandler(request, response){
-  console.log("in comes a request to:" + request.url);
-  response.end("Hello World from Zach");
+	let paragraph = txtgen.paragraph();
+  var p = new Poem(paragraph);
+  response.end(p.generate());
 }
 
 var server = http.createServer(requestHandler);
-console.log(process.env.PORT)
-server.listen(process.env.PORT);
+console.log(localport)
+server.listen(localport);
