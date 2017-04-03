@@ -5,6 +5,5 @@ function requestHandler(request, response){
 }
 
 var server = http.createServer(requestHandler);
-
-server.listen(process.env.port);
-ß
+console.log(process.env.PORT)
+server.listen(process.env.PORT);
