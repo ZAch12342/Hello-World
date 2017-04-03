@@ -2,7 +2,7 @@
   "name": "Hello-World",
   "version": "1.0.0",
   "description": "this program writes hello",
-  "main": "server.js",
+  "main": "node serverß",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
