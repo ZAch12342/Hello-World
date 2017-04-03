@@ -1,0 +1,20 @@
+{
+  "name": "Hello-World",
+  "version": "1.0.0",
+  "description": "this program writes hello",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZAch12342/Hello-World.git"
+  },
+  "author": "Zach Hernandez",
+  "license": "mit",
+  "bugs": {
+    "url": "https://github.com/ZAch12342/Hello-World/issues"
+  },
+  "homepage": "https://github.com/ZAch12342/Hello-World"
+}
